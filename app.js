@@ -1,2 +1,9 @@
 let ref = document.getElementById('reslut');
-ref.innerHTML = "j'écris un texte";
+
+try {
+    ref.innerHTML = "j'écris un texte";
+}
+catch(e){
+    alert('une erreur est survenue !');
+}
+
